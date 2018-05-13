@@ -9,12 +9,17 @@
     <p>
 		<img src= 'very easy parking.png'>
 	</p>
-	<form>
-		<input style="width: 300px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px;
-		#999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999;
-		font-weight: bold; background: #ffff00; color: #000; border-radius: 10px;
-		border: 1px solid #999; font-size: 150%;
-		" type="button" value="Close" onclick="window.location.href='file:///C:/Users/XAUP7385/temp/OM/XavierPougnard.github.io/closer.htm'" />
-	</form>
+	<form action="your-server-side-code" method="POST">
+  	  <script
+    	    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="pk_test_aw172A4CceQhwDIc55FJiF1J"
+            data-amount="999"
+            data-name="Xavier Pougnard"
+            data-description="Example charge"
+            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+            data-locale="auto"
+            data-currency="eur">
+          </script>
+       </form>
   </body>
 </html>
